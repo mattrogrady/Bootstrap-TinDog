@@ -1,0 +1,177 @@
+/* Selectors */
+h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.5
+}
+
+h3 {
+  font-weight: 700;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Classes */
+/* Title Card */
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.iphone-img {
+  width: 60%;
+  transform: rotate(25deg);
+  margin-left: 20%;
+  position: absolute;
+  right: 25%;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+@media (max-width: 1028px) {
+  .iphone-img {
+    position: static;
+    transform: rotate(0deg);
+    margin-left: 0;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* Feature Card */
+.feature-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+.feature-heading {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.feature-description {
+  color: #8f8f8f;
+}
+
+.feature-item {
+  padding: 35px 35px;
+  text-align: center;
+}
+
+/* Testimonials */
+.testimonial-img {
+  border-radius: 100%;
+  width: 15%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Call to Action */
+#cta h3 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+#cta .download-btn {
+  margin: 5% 1.5% 5% 1.5%;
+}
+
+/* Footer */
+.socials {
+  margin: 3% 2% 3% 0;
+}
+
+#footer p {
+  color: grey;
+  font-size: 0.8rem;
+}
+
+/* IDs */
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+
+#cta {
+  background-color: #ff4c68;
+  color: white;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#footer {
+  background-color: white;
+  text-align: center;
+  padding: 7% 15%;
+}
